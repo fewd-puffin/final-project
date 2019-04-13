@@ -1,0 +1,36 @@
+
+body{
+    width: 1280px;
+    height: 800px;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+li{
+    display: inline-block; 
+    padding-top: 20px;
+    margin: 20px;
+    position: relative;
+    left: 30vh;
+    color: #F5D835;
+    text-align: center;
+}
+.left_side{
+    display: inline-block; 
+    position: relative;
+    width: 25vh;
+    height: 100vh;
+    color: black;
+
+
+}
+.right_side{
+    display:inline-block; 
+    position: relative;
+    width: 75vw;
+    height:100vh;
+    color:rgb(75, 105, 30);
+}

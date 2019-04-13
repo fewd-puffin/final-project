@@ -1,0 +1,173 @@
+body{
+    width: 1280px;
+    height: 800px;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+li{
+    display: inline-block; 
+    padding-top: 20px;
+    margin: 20px;
+    position: relative;
+    left: 30vh;
+    color: #F5D835;
+    text-align: center;
+}
+
+.Header_section{
+    background-image: url(img/Header.png);
+    height: 700px;
+    width: 1200px;
+    margin: 0;
+
+}
+.qoute{
+    display: inline-block; 
+    position: absolute;
+    margin:5vh;
+    left:50vh;
+    top:70vh;
+
+
+}
+
+footer{
+    display: block; 
+    position: absolute;
+    width: 1200px;
+    margin: 0;
+    top: 100vh;
+    background-color: #F5D835;
+    }
+p{
+    margin: 15px;  
+    text-align: center;
+   
+}
+.left_side{
+  
+    display:inline-block; 
+    position: absolute;
+    width: 40vw;
+    height:90vh;
+    top: 10vh;
+
+}
+.right_side{
+    display: inline-block; 
+    position: absolute;
+    width: 107vh;
+    height: 90vh;
+    left: 40vw;
+    top: 10vh;
+
+   
+}
+
+.Header{
+    background-color: #30BDD0;
+    margin: 0;
+    display: block; 
+    position: absolute;
+    width: 1208px;
+    height: 10vh;
+}
+.Picman{
+    display:inline-block; 
+    position: absolute;
+    height:200vh;
+}
+.contener{
+    display:inline-block; 
+    width: 33vw;
+    height:80vh;
+    position: absolute;
+}
+.yellow{
+    background-image: url(img/yellow.png);
+    width: 300px;
+    height:300px;
+    position: absolute;
+    border: 0px;
+    border-style: none;
+    top: 0px;
+    animation-name: move_picman;
+   animation-duration: 3s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear;
+}
+.red{
+    background-image: url(img/red.png);
+    width: 300px;
+    height:300px;
+    position: absolute;
+    border: 0px;
+    border-style: none;
+    top: 0px;
+    left: 30vw;
+    animation-name: move_picman;
+   animation-duration: 3s;
+   animation-direction: alternate;
+   animation-iteration-count: infinite;
+   animation-timing-function:linear;
+}
+.green{
+    background-image: url(img/green.png);
+    width: 225px;
+    height:300px;
+    position: absolute;
+    border: 0px;
+    border-style: none;
+    top: 0px;
+    left: 60vw;
+    animation-name: move_picman;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+}
+
+@keyframes move_picman{
+    0%
+    {
+      top:0;
+    }
+    50%
+    {
+      
+      top:20vh;
+    }
+   100%
+    {
+      top: 50vh;
+    }
+   }
+   .left_photo{
+    position: absolute;
+    background-image: url(img/yellow.png);
+       width: 300px;
+       height: 300px; 
+       border: #30BDD0 solid 4px;
+       top: 20vh;
+       left: 5vw;
+   }
+   .Text{
+    display: inline;
+    position: relative;
+    left: 10px;
+   }
+   H1{
+       text-align: center;
+   }
+   h2{
+
+    color: black;
+    font-size: 12px;  
+    line-height: 26pt; 
+    text-justify: auto;
+}
