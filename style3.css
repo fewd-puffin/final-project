@@ -1,0 +1,98 @@
+body{
+    width: 100vw;
+    display: block; 
+    margin: 0;
+    font-family: 'Lato','Changa';
+
+}
+
+a{
+    text-decoration: none;
+    color: #F5D835;
+}
+a:hover{
+    color: aliceblue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+.menu{
+    display: inline-block; 
+    padding-top: 0;
+    margin: 40px;
+    position: relative;
+    left: 50vh;
+    color: #F5D835;
+    text-align: center;
+}
+
+    
+.subHead{
+    font-size: 40px;
+    font-family: 'Changa', sans-serif;
+}
+ 
+
+footer{
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    width: 100vw;
+    height: 9vh;
+    background-color: #F5D835;
+    }
+    
+p{
+    margin: 15px;   
+    text-align: center;
+   
+}
+
+
+.Header{
+    background-color: #30BDD0;
+    margin: 0;
+    display: block; 
+    position: relative;
+    width: 100%;
+    height: 10vh;
+}
+.content{
+   height: 600px;
+   width: 400px;
+   background-color:hsla(177, 43%, 83%, 0.3);
+   border-style: hidden;
+   color: rgb(74, 77, 74);
+   font-size: 30px;
+    /* border-radius: 10%;  */
+   position: relative;
+   left: 35vw;
+   padding: 10px 30px;
+   bottom: 1px;
+   /* margin-left: 150px; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.formHeder{
+  display: flex;
+  font-size: 20px;
+}
+input{
+    width:400px;
+    height: 50px;
+    justify-content: center;
+}
+.submit{
+    font-family: 'Lato','Changa';
+    border:none;
+    display: inline-block;
+    font-size: 20px;
+    width:400px;
+    height: 50px;
+    justify-content: center;
+
+}

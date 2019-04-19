@@ -1,0 +1,277 @@
+body{
+    width: 100vw;
+    height: auto;
+    display: block; 
+    margin: 0;
+    font-family: 'Lato','Changa';
+
+}
+.homepage{
+    background-image: url("img/Header.png");
+    background-size: cover;
+    position: absolute;
+    background-repeat:no-repeat;
+}
+a{
+    text-decoration: none;
+    color: #F5D835;
+}
+a:hover{
+    color: aliceblue;
+}
+ul{
+   
+    margin: 0;
+    text-align: center;
+}
+.menu{
+    display: inline-block; 
+    padding-top: 20px;
+    margin: 20px;
+    position: relative;
+    left: 60vw;
+   
+    color: #F5D835;
+    text-align: center;
+}
+
+.Header_section{
+    background-size: 100%;
+    height: 130px;
+    margin: 0;}
+    
+.mainHeader{
+    position: relative;
+    left: 20vw;
+    height: 50px;
+    font-size: 50px;
+    color: azure;
+    font-family: 'Changa', sans-serif;
+
+
+}
+.info{
+    display: none;
+    transition: width 20s;
+    /* max-height: 400px; */
+    width: 0px;
+    /* transition: width 2s; */
+    position: absolute;
+    top:20vw;
+    left: 20vw;
+}
+.show{
+    width: 100px;
+}
+.mainBody{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    display:block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 33vw;
+    height:auto;
+
+/
+
+}
+.mainRow1,.mainRow2,.mainRow3,.mainRow4{
+    position: absolute;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 33vw;
+ }
+ 
+.column{
+    border: #30BDD0 solid 2px;
+    display: flex;
+    margin: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+.row1,.row2,.row3,.row4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+    
+
+}
+.text1{
+position: absolute;
+left: 300px;
+display: none;  
+font-size: 24px;
+flex-direction: row;
+justify-content: center;
+ text-align: right; 
+
+
+}
+
+.yellow{
+    background-image: url(img/yellow.png);
+     
+    width:200px;
+    height:198px;
+    
+    margin: 20px;
+    align-items: center;
+    justify-content: center; 
+
+    display:inline-block;
+   
+    flex-direction: column;
+    cursor: pointer;
+
+ 
+}
+.red{
+    background-image: url(img/red.png);
+    width:200px;
+    height:198px;
+    
+    margin: 20px;
+    align-items: center;
+    justify-content: center; 
+
+    display:inline-block;
+   
+    flex-direction: column;
+    cursor: pointer;
+}
+.green{
+    background-image: url(img/green.png);
+    width:200px;
+    height:198px;
+    
+    margin: 20px;
+    align-items: center;
+    justify-content: center; 
+
+    display:inline-block;
+   
+    flex-direction: column;
+    cursor: pointer;
+    
+
+}
+
+.blue{
+    background-image: url(img/blue.png);
+    width:200px;
+    height:198px;
+    
+    margin: 20px;
+    align-items: center;
+    justify-content: center; 
+
+    display:inline-block;
+   
+    flex-direction: column;
+    cursor: pointer;
+   
+
+}
+
+
+footer{
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    width: 100vw;
+    height: 9vh;
+    background-color: #F5D835;
+    }
+    
+p{
+    margin: 15px;   
+    text-align: center;
+   
+}
+.left_side{
+  
+    display:inline-block; 
+    position: absolute;
+    width: 40vw;
+    height:90vh;
+    top: 10vh;
+
+}
+.right_side{
+    display: inline-block; 
+    position: absolute;
+    width: 107vh;
+    height: 90vh;
+    left: 40vw;
+    top: 10vh;
+
+   
+}
+
+.Header{
+    background-color: #30BDD0;
+    margin: 0;
+    display: block; 
+    position: absolute;
+    width: 100%;
+    height: 20vh;
+}
+/*.Picman{
+    display:inline-block; 
+    position: absolute;
+    height:200vh;
+}*/
+
+
+@keyframes move_picman{
+    0%
+    {
+      top:0;
+    }
+    50%
+    {
+      
+      top:20vh;
+    }
+   100%
+    {
+      top: 50vh;
+    }
+   }
+   .left_photo{
+    position: absolute;
+    background-image: url(img/yellow.png);
+       width: 300px;
+       height: 300px; 
+       border: #30BDD0 solid 4px;
+       top: 20vh;
+       left: 5vw;
+   }
+   .Text{
+    display: inline;
+    position: relative;
+    left: 10px;
+   }
+   H1{
+       text-align: center;
+   }
+   h2{
+
+    color: black;
+    font-size: 12px;  
+    line-height: 26pt; 
+    text-justify: auto;
+}
+
+ul{
+    text-align: left;
+}
